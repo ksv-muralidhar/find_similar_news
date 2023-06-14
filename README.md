@@ -13,3 +13,5 @@ Find similar news from the database using cosine similarity.
 5. Filter the news articles in the database belonging to the predicted cluster. This reduces the number of news articles for which the cosine similarity needs to be computed.
 6. Compute the cosine similarity between the input article and the articles in the database filtered in step 5.
 7. Return the top 'n' similar articles with highest cosine similarity.
+
+The dataset can be found <a href="https://www.kaggle.com/datasets/rmisra/news-category-dataset">here</a>.
